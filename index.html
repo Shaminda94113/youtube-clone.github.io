@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>YouTube.com Clone</title>
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="Icons/hamburger-menu.svg"/>
+            <img class="youtube-logo" src="Icons/youtube-logo.svg"/>
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="Icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="Icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>  
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="Icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-container">
+                <img class="youtube-apps-icon" src="Icons/youtube-apps.svg">
+                <div class="tooltip">YouTube apps</div>
+            </div>
+            <div class="notifications-icon-container">
+                <img class="notifications-icon" src="Icons/notifications.svg">
+                <div class="notifications-count">3</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="Channel-pictures/my-channel.jpg">
+        </div>
+    </div>
+    
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="Icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="Icons/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=YykjpeuMNEk&ab_channel=Coldplay">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-12.webp">
+                </a>
+                <div class="video-time">4:20</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@coldplay">
+                        <img class="profile-picture" src="Channel-pictures/channel-12.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=YykjpeuMNEk&ab_channel=Coldplayr">
+                        <p class="video-title">Coldplay - Hymn For The Weekend (Official Video)</p>
+                    </a>
+                    <a href="https://www.youtube.com/@coldplay">
+                        <p class="video-author">Coldplay</p>
+                    </a>
+                    <p class="video-stats">1.7B views &#183 6 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=H8W9oMNSuwo&t=5s&ab_channel=Jeremy%27sITLab">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-10.webp">
+                </a>
+                <div class="video-time">30:25</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@JeremysITLab">
+                        <img class="profile-picture" src="Channel-pictures/channel-10.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=H8W9oMNSuwo&t=5s&ab_channel=Jeremy%27sITLab">
+                        <p class="video-title">Free CCNA | Network Devices | Day 1 | CCNA 200-301 Complete Course</p>
+                    </a>
+                    <a href="https://www.youtube.com/@JeremysITLab">
+                        <p class="video-author">Jeremy's IT Lab</p>
+                    </a>
+                    <p class="video-stats">2.5M views &#183 3 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=UfawgQJICU8&ab_channel=Apple">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-11.webp">
+                </a>
+                <div class="video-time">1:35</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@Apple">
+                        <img class="profile-picture" src="Channel-pictures/channel-11.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=UfawgQJICU8&ab_channel=Apple">
+                        <p class="video-title">Introducing Apple Watch Series 8 | Apple</p>
+                    </a>
+                    <a href="https://www.youtube.com/@Apple">
+                        <p class="video-author">Apple</p>
+                    </a>
+                    <p class="video-stats">48M views &#183 2 months ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=7iwgyzX-76g&ab_channel=LinusTechTips">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-4.webp">
+                </a>
+                <div class="video-time">12:50</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@LinusTechTips">
+                        <img class="profile-picture" src="Channel-pictures/channel-4.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=7iwgyzX-76g&ab_channel=LinusTechTips">
+                        <p class="video-title">How many Chrome tabs can you open with 2TB RAM?</p>
+                    </a>
+                    <a href="https://www.youtube.com/@LinusTechTips">
+                        <p class="video-author">Linus Tech Tips </p>
+                    </a>
+                    <p class="video-stats">9.9M views &#183 2 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=r-3iathMo7o&t=1s&ab_channel=UnboxTherapy">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-9.webp">
+                </a>
+                <div class="video-time">7:04</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@unboxtherapy/featured">
+                        <img class="profile-picture" src="Channel-pictures/channel-9.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=r-3iathMo7o&t=1s&ab_channel=UnboxTherapy">
+                        <p class="video-title">The ULTIMATE $30,000 Gaming PC Setup</p>
+                    </a>
+                    <a href="https://www.youtube.com/@unboxtherapy/featured">
+                        <p class="video-author">Unbox Therapy</p>
+                    </a>
+                    <p class="video-stats">14M views &#183 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=MevKTPN4ozw&ab_channel=MarquesBrownlee">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-6.webp">
+                </a>
+                <div class="video-time">17:53</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@mkbhd">
+                        <img class="profile-picture" src="Channel-pictures/channel-6.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=MevKTPN4ozw&ab_channel=MarquesBrownlee">
+                        <p class="video-title">Talking Tech with Elon Musk!</p>
+                    </a>
+                    <a href="https://www.youtube.com/@mkbhd">
+                        <p class="video-author">Marques Brownlee</p>
+                    </a>
+                    <p class="video-stats">15M views &#183 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=wX75Z-4MEoM&ab_channel=NetworkChuck">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-7.webp">
+                </a>
+                <div class="video-time">27:41</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@NetworkChuck">
+                        <img class="profile-picture" src="Channel-pictures/channel-7.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=wX75Z-4MEoM&ab_channel=NetworkChuck">
+                        <p class="video-title">you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)</p>
+                    </a>
+                    <a href="https://www.youtube.com/@NetworkChuck">
+                        <p class="video-author">NetworkChuck</p>
+                    </a>
+                    <p class="video-stats">6.1M views &#183 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=rfscVS0vtbw&t=4587s&ab_channel=freeCodeCamp.org">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-1.webp">
+                </a>
+                <div class="video-time">4:26:52</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@freecodecamp">
+                        <img class="profile-picture" src="Channel-pictures/channel-1.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=rfscVS0vtbw&t=4587s&ab_channel=freeCodeCamp.org">
+                        <p class="video-title">Learn Python - Full Course for Beginners [Tutorial]</p>
+                    </a>
+                    <a href="https://www.youtube.com/@freecodecamp">
+                        <p class="video-author">freeCodeCamp.org</p>
+                    </a>
+                    <p class="video-stats">37M views &#183 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=H6NUzanLUd4&ab_channel=Looper">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-2.webp">
+                </a>
+                <div class="video-time">10:08</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@Looper">
+                        <img class="profile-picture" src="Channel-pictures/channel-2.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=H6NUzanLUd4&ab_channel=Looper">
+                        <p class="video-title">Ranking The Most Powerful Avengers In The MCU</p>
+                    </a>
+                    <a href="https://www.youtube.com/@Looper">
+                        <p class="video-author">Looper</p>
+                    </a>
+                    <p class="video-stats">5.67M views &#183 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=0e3GPea1Tyg&ab_channel=MrBeast">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-3.webp">
+                </a>
+                <div class="video-time">25:41</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@MrBeast/featured">
+                        <img class="profile-picture" src="Channel-pictures/channel-3.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=0e3GPea1Tyg&ab_channel=MrBeast">
+                        <p class="video-title">$456,000 Squid Game In Real Life!</p>
+                    </a>
+                    <a href="https://www.youtube.com/@MrBeast/featured">
+                        <p class="video-author">MrBeast</p>
+                    </a>
+                    <p class="video-stats">310M views &#183 1 year ago</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=3OKagE2ZIRA&t=454s&ab_channel=What%27sInside%3F">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-5.webp">
+                </a>
+                <div class="video-time">9:24</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@WhatsInside/featured">
+                        <img class="profile-picture" src="Channel-pictures/channel-5.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=3OKagE2ZIRA&t=454s&ab_channel=What%27sInside%3F">
+                        <p class="video-title">What's inside The World Cup Soccer Ball?</p>
+                    </a>
+                    <a href="https://www.youtube.com/@WhatsInside/featured">
+                        <p class="video-author">What's Inside?</p>
+                    </a>
+                    <p class="video-stats">40M views &#183 4 years ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=uxPdPpi5W4o&ab_channel=Veritasium">
+                    <img class="thumbnail" src="Thumbnails/thumbnail-8.webp">
+                </a>
+                <div class="video-time">12:06</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@veritasium">
+                        <img class="profile-picture" src="Channel-pictures/channel-8.jpg"/>
+                    </a>
+                </div>
+                <div class="video-info">
+                    <a href="https://www.youtube.com/watch?v=uxPdPpi5W4o&ab_channel=Veritasium">
+                        <p class="video-title">Why Are 96,000,000 Black Balls on This Reservoir?</p>
+                    </a>
+                    <a href="https://www.youtube.com/@Looper">
+                        <p class="video-author">Veritasium</p>
+                    </a>
+                    <p class="video-stats">90M views &#183 3 years ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
